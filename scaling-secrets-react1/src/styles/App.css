@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 100px 250px;
+  padding: 0;
+}
+.header .navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .navbar .logo {
+  position: absolute;
+}
+.header .navbar button {
+  background: none;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: 900;
+}
+.header .navbar button:hover {
+  border-radius: 10px;
+  padding: 20px 50px;
+  transition: 0.2s;
+  background-color: rgba(188, 188, 188, 0.452);
+  color: #32C5D4;
+}
+.header .text-intro {
+  display: flex;
+  font-size: 15px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 60px;
+}
+.header .text-intro h1 {
+  color: #FFFFFF;
+  text-align: justify;
+  width: 50%;
+  font-size: 48px;
+}
+.header .text-intro h1 span {
+  color: #32C5D4;
+  font-weight: 700;
+}
+.header .text-intro p {
+  color: #FFFFFF;
+  width: 50%;
+  font-size: 25px;
+  text-align: justify;
+  margin-bottom: 5%;
+}
+.header .text-intro button {
+  color: #FFFFFF;
+  background-color: #32C5D4;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  padding: 20px 70px;
+  font-size: 14px;
+}
+.header .text-intro button:hover {
+  transition: 0.2s;
+  font-weight: 700;
+  font-size: 14px;
+  background-color: rgba(50, 196, 212, 0.55);
+}
+
+.Bodier1 {
+  display: flex;
+  flex-direction: row;
+  text-align: start;
+  gap: 40px;
+  margin: 210px 250px;
+  padding: 0;
+}
+.Bodier1 .Bodier1-l {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+}
+.Bodier1 .Bodier1-l p {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.Bodier1 .Bodier1-l img {
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.4);
+}
+.Bodier1 .Bodier1-r {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  width: 50%;
+}
+.Bodier1 .Bodier1-r .back {
+  background-color: #32C5D4;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+}
+.Bodier1 .Bodier1-r .back p {
+  width: 75%;
+  font-size: 20px;
+  color: #000;
+}
+.Bodier1 .Bodier1-r button {
+  border: solid 1px #32C5D4;
+  border-radius: 20px;
+  padding: 15px 30px;
+  color: #32C5D4;
+  background-color: none;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.2);
+}
+.Bodier1 .Bodier1-r button:hover {
+  border: solid 1px #FFFFFF;
+  border-radius: 20px;
+  padding: 15px 30px;
+  color: #FFFFFF;
+  background-color: #32C5D4;
+  transition: 0.2;
+}
+
+.info {
+  background-image: url("../../public/img/back-bodier2.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  margin: -100px 0px;
+  padding: 40px 465px;
+}
+.info .info-text {
+  color: #FFFFFF;
+  grid-area: 1/1/2/2;
+  text-align: justify;
+  gap: 30px;
+}
+.info .info-text h1 {
+  font-size: 35px;
+  font-weight: 700;
+}
+.info .info-text h2 {
+  font-size: 14px;
+  color: #32C5D4;
+}
+.info .img {
+  grid-area: 1/2/2/3;
+  background-color: #32C5D4;
+  background-position-x: right;
+}
+.info .info-text-bot {
+  color: #FFFFFF;
+  grid-area: 2/1/3/3;
+  text-align: justify;
+}
+
+body {
+  background-image: url("../../public/img/Background.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.App {
+  text-align: center;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+/*# sourceMappingURL=App.css.map */
