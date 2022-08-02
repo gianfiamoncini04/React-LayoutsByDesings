@@ -136,14 +136,13 @@
   background-image: url("../../public/img/back-bodier2.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  position: relative;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(2);
   grid-column-gap: 40px;
   grid-row-gap: 40px;
   margin: -100px 0px;
-  padding: 40px 465px;
+  padding: 8% 465px;
 }
 .info .info-text {
   color: #FFFFFF;
@@ -161,18 +160,113 @@
   color: #32C5D4;
 }
 .info .img {
-<<<<<<< HEAD
-  grid-area: 1/2/2/3;
-=======
   grid-column: 2/2;
   grid-row: 1;
->>>>>>> 4770d704c92e1365ffd78f61f056e314cc97cb29
 }
 .info .info-text-bot {
   color: #FFFFFF;
   grid-column: span 2;
   grid-row: 2;
   text-align: justify;
+}
+
+.other-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0px;
+}
+.other-info .mini-info {
+  background-color: #3A3A3A;
+  padding: 60px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 270px;
+  width: 100%;
+}
+.other-info .mini-info .etiqueta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.other-info .mini-info .etiqueta p {
+  color: #FFFFFF;
+}
+.other-info .mini-info .mark {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.other-info .mini-info .mark p {
+  color: #FFFFFF;
+}
+.other-info .mini-info .shop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.other-info .mini-info .shop p {
+  color: #FFFFFF;
+}
+.other-info .graph-info {
+  background-color: #FFFFFF;
+}
+.other-info .graph-info p {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+.other-info .graph-info img {
+  width: 75%;
+}
+
+.faq {
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px;
+  margin: 0px;
+  gap: 40px;
+}
+.faq p {
+  font-size: 30px;
+  font-weight: 700;
+}
+.faq .chapters {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+.faq .chapters select {
+  font-size: 22px;
+  font-weight: 700;
+  color: #32C5D4;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.2);
+}
+.faq .chapters select option {
+  display: none;
+  position: absolute;
+  background: none;
+  padding: 80px;
 }
 
 body {

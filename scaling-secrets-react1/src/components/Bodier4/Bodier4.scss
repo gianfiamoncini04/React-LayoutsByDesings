@@ -1,0 +1,43 @@
+.faq {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    margin: 0px;
+    gap: 40px;
+
+    p {
+        font-size: 30px;
+        font-weight: 700;
+
+    }
+
+    .chapters {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: stretch;
+
+        select {
+            font-size: 22px;
+            font-weight: 700;
+            color: $cor-pri;
+            border: none;
+            border-radius: 5px;
+            padding: 15px;
+            box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.2);
+
+            option {
+                position: absolute;
+                background: none;
+                padding: 80px;
+            }
+        }
+    }
+}

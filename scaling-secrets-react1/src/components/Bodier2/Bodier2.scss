@@ -2,14 +2,13 @@
     background-image: url('../../public/img/back-bodier2.png');
     background-repeat: no-repeat;
     background-size: 100%;
-    position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2);
     grid-column-gap: 40px;
     grid-row-gap: 40px;
     margin: -100px 0px;
-    padding: 40px 465px;
+    padding: 8% 465px;
 
     .info-text {
         color: $cor-sec;
