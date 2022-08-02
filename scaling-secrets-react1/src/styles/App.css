@@ -161,8 +161,6 @@
 }
 .info .img {
   grid-area: 1/2/2/3;
-  background-color: #32C5D4;
-  background-position-x: right;
 }
 .info .info-text-bot {
   color: #FFFFFF;
