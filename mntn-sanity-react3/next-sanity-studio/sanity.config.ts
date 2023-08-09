@@ -5,9 +5,9 @@ import {schemaTypes} from './schemas'
 
 export default defineConfig({
   name: 'default',
-  title: 'Sanity project',
+  title: 'Next Sanity Studio',
 
-  projectId: 'jf8ngicv',
+  projectId: 'mpxopgdf',
   dataset: 'production',
 
   plugins: [deskTool(), visionTool()],
