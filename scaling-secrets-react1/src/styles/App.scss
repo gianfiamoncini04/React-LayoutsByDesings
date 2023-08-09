@@ -1,6 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-@import './variables.scss';
+$cor-pri: #32C5D4;
+$cor-sec: #FFFFFF;
+
 @import '../components/Header/Header.scss';
 @import '../components/Bodier1/Bodier1.scss';
 @import '../components/Bodier2/Bodier2.scss';
@@ -18,5 +20,5 @@ body {
 }
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
