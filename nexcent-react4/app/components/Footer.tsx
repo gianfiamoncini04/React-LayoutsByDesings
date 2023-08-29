@@ -94,6 +94,9 @@ export default function Footer() {
                 </span>
                 <input className='w-full bg-[#515b60] rounded py-2 pl-4 pr-10 focus:outline-none placeholder:text-sm' type="email" name="email" id="email" placeholder='Your email address here'/>
             </label>
+            <p className='font-light'>Made by <span className='font-bold'><Link href="https://github.com/gianfiamoncini04" target='_blank' rel='noopener noreferrer'>GIAN</Link></span> 🤙🏼<br />
+            Can be access the source code <span className='font-bold'><Link href="https://github.com/gianfiamoncini04/LayoutsByDesings/tree/main/nexcent-react4" target='_blank' rel='noopener noreferrer'>here</Link></span>. <br />
+            Figma design used: <span className='font-bold'><Link target='_blank' rel='noopener noreferrer' href="https://www.figma.com/file/Prnsewsu0NpflrNYJvSc0o/Responsive-Landing-Page-Design-%7C-Website-Home-Page-Design-%7C-Agency-Website-UI-Design-(Community)?type=design&node-id=0-1&mode=design&t=dkMKpo9yxW3wHYDA-0">nexcent</Link></span></p>
         </Div4>
     </Footers>
   </>  
