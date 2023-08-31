@@ -10,6 +10,10 @@ const Headers = styled.header`
   justify-content: space-around;
   align-content: center;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
 `
 const DivList = styled.div`
   display: flex;
