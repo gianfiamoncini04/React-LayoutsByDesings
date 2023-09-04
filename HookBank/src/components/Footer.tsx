@@ -17,7 +17,7 @@ export default function Footer(){
                     <p className='text-sm opacity-70'>A new way to make the payments easy, <br />reliable and secure.</p>
                 </section>
                 <section className='flex flex-col gap-3'>
-                    <p className='text-md pb-[15px]'>Usefull Links</p>
+                    <p className='text-md pb-[15px] hover:opacity-75 cursor-pointer'>Usefull Links</p>
                     <p className='text-sm opacity-70 hover:opacity-90 cursor-pointer'>Content</p>
                     <p className='text-sm opacity-70 hover:opacity-90 cursor-pointer'>How it Works</p>
                     <p className='text-sm opacity-70 hover:opacity-90 cursor-pointer'>Create</p>
@@ -25,7 +25,7 @@ export default function Footer(){
                     <p className='text-sm opacity-70 hover:opacity-90 cursor-pointer'>Terms & Services</p>
                 </section>
                 <section className='flex flex-col gap-3'>
-                    <p className='text-md pb-[15px]'>Community</p>
+                    <p className='text-md pb-[15px] hover:opacity-75 cursor-pointer'>Community</p>
                     <p className='text-sm opacity-70 hover:opacity-90 cursor-pointer'>Help Center</p>
                     <p className='text-sm opacity-70 hover:opacity-90 cursor-pointer'>Partners</p>
                     <p className='text-sm opacity-70 hover:opacity-90 cursor-pointer'>Suggestions</p>
@@ -33,9 +33,12 @@ export default function Footer(){
                     <p className='text-sm opacity-70 hover:opacity-90 cursor-pointer'>Newsletters</p>
                 </section>
                 <section className='flex flex-col gap-3'>
-                    <p className='text-md pb-[15px]'>Partner</p>
+                    <p className='text-md pb-[15px] hover:opacity-75 cursor-pointer'>Partner</p>
                     <p className='text-sm opacity-70 hover:opacity-90 cursor-pointer'>Our Partner</p>
                     <p className='text-sm opacity-70 hover:opacity-90 cursor-pointer'>Become a Partner</p>
+                    <p className='font-light'>Made by <span className='font-bold'><a href="https://github.com/gianfiamoncini04" target='_blank' rel='noopener noreferrer'>GIAN</a></span> 🤙🏼<br />
+                Can be access the source code <span className='font-bold'><a href="https://github.com/gianfiamoncini04/LayoutsByDesings/tree/main/HookBank" target='_blank' rel='noopener noreferrer'>here</a></span>. <br />
+                Figma design used: <span className='font-bold'><a target='_blank' rel='noopener noreferrer' href="https://www.figma.com/file/p2pWtGxKG9HMY4GRBecdnt/HooBank?type=design&node-id=310%3A486&mode=design&t=JhZ5NORF76SC7iW6-1">HooBank</a></span></p>
                 </section>
             </Section1>
             <hr/>
@@ -61,7 +64,8 @@ const Footers = styled.footer`
     width: 100%;
     bottom: 0;
     left: 0;
-    padding: 30px 0px;
+    margin-top: 150px;
+    margin-bottom: 15px;
 `
 
 const Section1 = styled.section`
