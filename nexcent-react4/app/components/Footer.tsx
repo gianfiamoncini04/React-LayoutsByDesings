@@ -20,7 +20,7 @@ const Footers = styled.footer`
   background-color: #263238;
   color: white;
   font-size: 14px;
-}
+
 `
 const Div1 = styled.div`
     display: flex;
