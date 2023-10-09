@@ -36,7 +36,7 @@ export default function Header() {
   <>
     <Headers>
       <div>
-        <Link href={'/'}><Image src="/logo.png" width='150' height='150' alt="Nexcent" /></Link>
+        <Link href={'/'}><Image src="/logo-black.png" width='150' height='150' alt="Nexcent" /></Link>
       </div>
       <DivList>
         <div className='font-bold hover:text-green-600 hover:scale-125 ease-in-out duration-100 cursor-pointer'>Home</div>
