@@ -12,7 +12,7 @@ export default function Sec1() {
                     <button className="text-black bg-pri hover:bg-sec font-bold w-btn h-btn border-2 border-black shadow-[3px_3px_0_1px_#000] hover:scale-110 ease-in-out duration-200">COMECE AGORA</button>
                 </section> 
                 <section className="min-w-[60%] xl:max-w-full">
-                    <Image src={"/Sec1.svg"} width={842} height={521} alt="sec1" className="w-full" />
+                    <Image src={"/sec1.svg"} width={842} height={521} alt="sec1" className="w-full" />
                 </section>
               </section>
             </>
