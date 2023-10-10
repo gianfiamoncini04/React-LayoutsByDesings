@@ -8,7 +8,7 @@ import Footer from "./components/Footer"
 export default function Home() {
   return (
       <>
-      <main className="m-[0_100px] text-black">
+      <main className="m-[0_100px] lg:m-[0_20px] text-black">
         <Header />
         <Sec1 />
         <Sec2 />

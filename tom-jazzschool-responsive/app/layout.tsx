@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br" className='scroll-smooth'>
-      <body className={`bg-bg select-none border-black border-x-2 m-[0_64px] ${inter.className}`}>{children}</body>
+      <body className={`bg-bg select-none border-black border-x-2 m-[0_64px] md:m-[0_36px] ${inter.className}`}>{children}</body>
     </html>
   )
 }
