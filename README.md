@@ -15,7 +15,7 @@
 
 ### -> [HookBank](/HookBank):
 ##### 📚 Usando NEXT.JS, TAILWINDCSS, STYLED COMPONENTS
-##### 🔖 Deployed: https://hookbank-vite.vercel.app
+##### 🔖 Deployed: https://hookbank-vite.netlify.app
 
 ---
 
