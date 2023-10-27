@@ -3,4 +3,4 @@
 ## 📂 Latest to First Projects:
 ### -> Central-Music-Responsive:
 #### 📚 Usando NEXT.JS, TAILWINDCSS
-#### 🔖 Deployed: https://central-music-responsive.vercel.app
+#### 🔖 Deployed: ´´´https://central-music-responsive.vercel.app´´´
