@@ -1,6 +1,6 @@
 # 🖥💡 Landing Pages using React 💡🖥
 
 ## 📂 Latest to First Projects:
-### -> Central-Music-Responsive:
+### -> [Central-Music-Responsive]('/central-music-responsive'):
 #### 📚 Usando NEXT.JS, TAILWINDCSS
-#### 🔖 Deployed: ´´´https://central-music-responsive.vercel.app´´´
+#### 🔖 Deployed: central-music-responsive.vercel.app
