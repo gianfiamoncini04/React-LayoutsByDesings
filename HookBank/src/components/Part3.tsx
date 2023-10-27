@@ -5,15 +5,15 @@ export default function Part3() {
         <>
             <Mains>
                 <Section1>
-                    <img src="/public/assets/part3.png" alt="part3" width="800px" className='drop-shadow-[0_0_30px_#FFFFFF40]'/>
+                    <img src="/assets/part3.png" alt="part3" width="800px" className='drop-shadow-[0_0_30px_#FFFFFF40]'/>
                 </Section1>
                     <span className='shadow-[0_0_1000px_200px_#FFFFFF35] absolute z-[-100] left-0'></span>
                 <Section2>
                     <p className='text-6xl font-bold leading-[6rem]'>Easily control your billing & invoicing.</p>
                     <p className='text-lg opacity-70 leading-[2rem]'>Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.</p>
                     <section className='flex flex-row gap-10'>
-                        <img src="/public/assets/appstore.png" alt="appstore" />
-                        <img src="/public/assets/googleplay.png" alt="googleplay" />
+                        <img src="/assets/appstore.png" alt="appstore" />
+                        <img src="/assets/googleplay.png" alt="googleplay" />
                     </section>
                 </Section2>
             </Mains>

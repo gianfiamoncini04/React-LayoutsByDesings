@@ -10,7 +10,7 @@ export default function Part4() {
                     <button className='w-fit p-[15px] font-bold drop-shadow-[0_0_5px_#00f6ff] bg-gradient-to-br from-[#DEF9FA] to-[#33BBCF] text-black rounded-md hover:scale-125 ease-in-out duration-200'>Get Started</button>
                 </Section1>
                 <Section2>
-                    <img src="/public/assets/part4.png" alt="part4" width="750px" className='drop-shadow-[0_0_30px_#FFFFFF40]'/>
+                    <img src="/assets/part4.png" alt="part4" width="750px" className='drop-shadow-[0_0_30px_#FFFFFF40]'/>
                 </Section2>
             </Mains>
         </>

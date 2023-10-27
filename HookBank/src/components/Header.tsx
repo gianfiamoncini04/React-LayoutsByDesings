@@ -22,15 +22,12 @@ export default function Header(){
 }
 
 const Headers = styled.header`
-    // background-color: #000000;
-    background-color: transparent;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 30px 0px;
     font-size: 14pt;
-    position: sticky;
     top: 0;
     z-index: 999;
 `

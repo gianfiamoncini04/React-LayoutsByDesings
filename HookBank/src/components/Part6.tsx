@@ -5,10 +5,10 @@ export default function Part6() {
         <>
             <Mains>
                 <Section1>
-                    <img className='w-[250px]' src="/public/assets/brand1.png" alt="airbnb" />
-                    <img className='w-[250px]' src="/public/assets/brand2.png" alt="binance" />
-                    <img className='w-[250px]' src="/public/assets/brand3.png" alt="coinbase" />
-                    <img className='w-[250px]' src="/public/assets/brand4.png" alt="dropbox" />
+                    <img className='w-[250px]' src="/assets/brand1.png" alt="airbnb" />
+                    <img className='w-[250px]' src="/assets/brand2.png" alt="binance" />
+                    <img className='w-[250px]' src="/assets/brand3.png" alt="coinbase" />
+                    <img className='w-[250px]' src="/assets/brand4.png" alt="dropbox" />
                 </Section1>
                 <Section2 className='rounded-3xl bg-gradient-to-bl from-[#272727] to-[#11101D]'>
                     <section className='flex flex-col gap-5'>

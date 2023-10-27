@@ -13,9 +13,9 @@ html{
 }
 body{
     background-color: #010510;
-    margin: 0px 135px;
+    padding: 0px 135px;
     color: #FFF;
-    background-image: url(../../public/assets/slide.png);
+    background-image: url(../../assets/slide.png);
     background-repeat: no-repeat;
     background-position: right 0% top 4%;
     background-size: 30%;
