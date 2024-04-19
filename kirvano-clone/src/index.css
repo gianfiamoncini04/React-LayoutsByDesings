@@ -7,6 +7,17 @@
   src: url("/Satoshi-Regular.otf") format("opentype");
 }
 
+@font-face {
+  font-family: "Satoshi Bold";
+  src: url("/Satoshi-Bold.otf") format("opentype");
+}
+
 body {
   font-family: "Satoshi";
+}
+
+@layer {
+  .toggles{
+    @apply cursor-pointer inline-flex items-center py-8 border border-black px-4 rounded-lg font-bold text-xl gap-3
+  }
 }
