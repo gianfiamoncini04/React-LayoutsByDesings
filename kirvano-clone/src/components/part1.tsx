@@ -11,26 +11,26 @@ export function Part1() {
 
   return (
     <>
-      <section className="flex flex-col justify-center items-center bg-[#FAFAFA] px-80 py-28">
+      <section className="flex flex-col justify-center items-center bg-[#FAFAFA] px-80 py-28 gap-12">
         <strong className="font-satbold  text-5xl leading-tight pb-4 text-center">Sua primeira venda no digital <br />mais rápida do que você imagina</strong>
-        <div className='flex flex-row'>
+        <div className='flex flex-row justify-start items-center gap-16 w-full'>
           <div className='flex flex-col'>
             <p onClick={() => handleToggle(1)} className={`toggles ${activeElement === 1 ? 'bg-[#171717] text-white' : 'bg-[#F1F1F4] text-[#a8b0b3]'}`}>
               <img src={check} alt="Check" />
               Crie sua conta
-              </p>
+            </p>
             <p onClick={() => handleToggle(2)} className={`toggles ${activeElement === 2 ? 'bg-[#171717] text-white' : 'bg-[#F1F1F4] text-[#a8b0b3]'}`}>
               <img src={check} alt="Check" />
               Cadastre seu produto
-              </p>
+            </p>
             <p onClick={() => handleToggle(3)} className={`toggles ${activeElement === 3 ? 'bg-[#171717] text-white' : 'bg-[#F1F1F4] text-[#a8b0b3]'}`}>
               <img src={check} alt="Check" />
               Comece a vender
-              </p>
+            </p>
           </div>
           <div className='flex flex-row'>
             {activeElement === 1 && <Crie />}
-            {activeElement === 2 && <Cadastre/>}
+            {activeElement === 2 && <Cadastre />}
             {activeElement === 3 && <Comece />}
           </div>
         </div>
