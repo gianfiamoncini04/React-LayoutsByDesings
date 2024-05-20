@@ -18,6 +18,9 @@ body {
 
 @layer {
   .toggles{
-    @apply cursor-pointer inline-flex items-center py-8 border border-black px-4 rounded-lg font-bold text-xl gap-3
+    @apply cursor-pointer inline-flex items-center py-6 border border-black px-8 font-bold text-xl gap-3 tracking-wider
+  }
+  .cards{
+    @apply  border border-black
   }
 }
