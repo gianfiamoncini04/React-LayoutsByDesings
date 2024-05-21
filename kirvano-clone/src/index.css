@@ -21,6 +21,6 @@ body {
     @apply cursor-pointer inline-flex items-center py-6 border border-black px-8 font-bold text-xl gap-3 tracking-wider
   }
   .cards{
-    @apply  border border-black
+    @apply flex flex-row justify-evenly items-center rounded-xl py-6 bg-black text-white hover:bg-white hover:text-black ease-in-out duration-700
   }
 }
