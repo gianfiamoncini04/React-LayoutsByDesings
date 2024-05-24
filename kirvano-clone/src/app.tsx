@@ -5,6 +5,8 @@ import { Part2 } from "./components/part2";
 import { Part3 } from "./components/part3";
 import { Part4 } from "./components/part4";
 import { Part5 } from "./components/part5";
+import { Part6 } from "./components/part6";
+import { Part7 } from "./components/part7";
 
 export function App() {
 	return (
@@ -16,6 +18,8 @@ export function App() {
 			<Part3 />
 			<Part4 />
 			<Part5 />
+			<Part6 />
+			<Part7 />
 		</>
 	);
 }

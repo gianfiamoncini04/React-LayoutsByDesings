@@ -1,4 +1,4 @@
-import { dataTwo } from '../ui/dataTwo'
+import { dataTwo } from '../ui/data'
 import image from '../assets/Ilustra.svg'
 
 export function Part3() {
