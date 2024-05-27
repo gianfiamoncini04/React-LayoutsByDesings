@@ -24,9 +24,9 @@ export function Part7() {
                 </div>
                 <div className="text-white bg-[#171717] grid grid-cols-2 rounded-xl max-w-[70%]">
                     <div className="flex flex-col justify-center items-start">
-                        <h2>Comece de forma gratuita</h2>
-                        <p>Venda seus produtos e serviços digitais e receba através da Kirvano.</p>
-                        <Button iconleft={<ArrowRightSquare />} valor="Cadastra-se" class="gap-2 text-lg"/>
+                        <h2 className="font-black text-3xl">Comece de forma gratuita</h2>
+                        <p className="text-lg">Venda seus produtos e serviços digitais e receba através da Kirvano.</p>
+                        <Button iconleft={<ArrowRightSquare />} valor="Cadastra-se" class="gap-2 text-lg py-5"/>
                     </div>
                     <img src={robo} alt={robo} />
                 </div>
