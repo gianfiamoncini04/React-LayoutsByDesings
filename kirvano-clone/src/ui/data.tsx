@@ -14,6 +14,10 @@ import Image7 from '../assets/Group-427318881-2.svg'
 import Image8 from '../assets/Group-427318881-6.svg'
 import Image9 from '../assets/Group-427318881-9.svg'
 import Image10 from '../assets/Group-427318881-3.svg'
+// DataFour
+import linkedin from '../assets/icon-linkedin.svg'
+import youtube from '../assets/icon-youtube.svg'
+import instagram from '../assets/icon-instagram.svg'
 
 
 export const data = [
@@ -42,3 +46,7 @@ export const dataThree = [
     ["Mensagem visualizada", "bg-[#0d6ede]", "25/11/2023 19:13"],
     ["Pagamento aprovado", "bg-[#1da56c]", "25/11/2023 11:15"],
 ]
+
+export const dataFour = [linkedin, youtube, instagram]
+
+export const dataFive = ["Início", "Área de membros", "Recorrência", "Funcionalidades", "Planos e taxas", "Ajuda"]
