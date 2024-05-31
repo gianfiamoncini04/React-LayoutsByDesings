@@ -50,3 +50,13 @@ export const dataThree = [
 export const dataFour = [linkedin, youtube, instagram]
 
 export const dataFive = ["Início", "Área de membros", "Recorrência", "Funcionalidades", "Planos e taxas", "Ajuda"]
+
+// Rever
+// export const dataSix = [
+//     ["Title", ["topics"]],
+//     ["Title", ["topics"]],
+//     ["Title", ["topics"]],
+//     ["Title", ["topics"]],
+//     ["Title", ["topics"]],
+//     ["Title", ["topics"]]
+// ]

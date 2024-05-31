@@ -19,12 +19,12 @@ export function Footer() {
                             ))}
                         </div>
                     </div>
-                    <div className="grid grid-cols-2 gap-4">
+                    <div className="grid grid-cols-2 gap-8">
                         {dataFive.map((label) => (
                             <p className="font-medium">{label}</p>
                         ))}
                     </div>
-                    <div className="flex flex-col justify-center items-start gap-4">
+                    <div className="flex flex-col justify-center items-start gap-y-4">
                         <p>Você pode baixar nosso app</p>
                         <div className="flex flex-row">
                             <img src={googleplay} alt={googleplay} />
@@ -33,10 +33,10 @@ export function Footer() {
                     </div>
                 </section>
                 <section className="flex flex-row justify-between items-center border-t border-zinc-700 text-zinc-700">
-                    <p>© 2024 Kirvano Pagamentos LTDA 48.582.146/0001-19 |  Todos os direitos reservados  💙</p>
-                    <p className="underline cursor-pointer">Termos e política</p>
+                    <p className="pt-16">© 2024 Kirvano Pagamentos LTDA 48.582.146/0001-19 |  Todos os direitos reservados 💙</p>
+                    <p className="underline cursor-pointer pt-16">Termos e política</p>
                 </section>
             </footer>
         </>
     )
-} 7
+}

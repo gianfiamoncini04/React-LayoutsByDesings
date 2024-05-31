@@ -12,21 +12,21 @@ export function Part7() {
                     <h1 className="font-black text-5xl">Na Kirvano você pode mais</h1>
                     <p className="text-xl">Com nossa plataforma você tem total controle do seu negócio.</p>
                 </div>
-                <div className="grid grid-cols-3 gap-8 max-w-[70%]">
+                <div className="grid grid-cols-3 gap-8 max-w-[70%] text-lg">
                     {[[img1, "Upsell, downsell, cross sell", "Aproveite ao máximo cada oportunidade de venda e aumente seus lucros.", "col-span-2"], [img2, "Recuperador de vendas", "Envie mensagens relevantes para seus clientes, aumentando a chance de conversão.", "col-span-1"]]
                         .map(([img, title, info, pos]) => (
-                            <div key={img} className={`flex flex-col justify-center items-start p-8 border border-zinc-200 bg-white rounded-xl ${pos}`}>
+                            <div key={img} className={`flex flex-col justify-center items-start gap-4 p-8 border border-zinc-200 bg-white rounded-xl ${pos}`}>
                                 <img src={img} alt={img} />
-                                <h3>{title}</h3>
+                                <h3 className="font-bold">{title}</h3>
                                 <p>{info}</p>
                             </div>
                         ))}
                 </div>
-                <div className="text-white bg-[#171717] grid grid-cols-2 rounded-xl max-w-[70%]">
-                    <div className="flex flex-col justify-center items-start">
+                <div className="text-white bg-[#171717] grid grid-cols-2 justify-between content-center rounded-xl max-w-[70%] px-8">
+                    <div className="flex flex-col justify-center items-start gap-4">
                         <h2 className="font-black text-3xl">Comece de forma gratuita</h2>
-                        <p className="text-lg">Venda seus produtos e serviços digitais e receba através da Kirvano.</p>
-                        <Button iconleft={<ArrowRightSquare />} valor="Cadastra-se" class="gap-2 text-lg py-5"/>
+                        <p className="text-base">Venda seus produtos e serviços digitais e receba através da Kirvano.</p>
+                        <Button iconleft={<ArrowRightSquare />} valor="Cadastra-se" class="gap-2 text-lg py-4"/>
                     </div>
                     <img src={robo} alt={robo} />
                 </div>

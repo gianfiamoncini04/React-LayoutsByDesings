@@ -8,6 +8,7 @@ import { Part4 } from "./components/part4";
 import { Part5 } from "./components/part5";
 import { Part6 } from "./components/part6";
 import { Part7 } from "./components/part7";
+import { Part8 } from "./components/part8";
 
 export function App() {
 	return (
@@ -21,6 +22,7 @@ export function App() {
 			<Part5 />
 			<Part6 />
 			<Part7 />
+			<Part8 />
 			<Footer />
 		</>
 	);
