@@ -18,7 +18,13 @@ import Image10 from '../assets/Group-427318881-3.svg'
 import linkedin from '../assets/icon-linkedin.svg'
 import youtube from '../assets/icon-youtube.svg'
 import instagram from '../assets/icon-instagram.svg'
-
+// DataSix
+import img1 from "../assets/illustra.svg"
+import img2 from "../assets/Illustra_1.svg"
+import img3 from "../assets/Illustra-1.svg"
+import img4 from "../assets/Illustra-2.svg"
+import img5 from "../assets/Illustras-1.svg"
+import {Users} from "./users"
 
 export const data = [
     ["Conteúdo e comunidade juntos", Item1, "Engaje, dê suporte e crie conexão com o seu público através de uma comunidade integrada.", "1"],
@@ -51,12 +57,11 @@ export const dataFour = [linkedin, youtube, instagram]
 
 export const dataFive = ["Início", "Área de membros", "Recorrência", "Funcionalidades", "Planos e taxas", "Ajuda"]
 
-// Rever
-// export const dataSix = [
-//     ["Title", ["topics"]],
-//     ["Title", ["topics"]],
-//     ["Title", ["topics"]],
-//     ["Title", ["topics"]],
-//     ["Title", ["topics"]],
-//     ["Title", ["topics"]]
-// ]
+export const dataSix = [
+    [img1, "", "", "Segurança total e conformidade sem concessões", ["topics"], 1],
+    [img2, "", "", "Saque enviado para sua conta bancária em minutos", ["topics"], 2],
+    [img3, "", "", "Métodos de pagamentos aceitos", ["topics"], 3],
+    [img4, "", "", "Suporte especializado", ["topics"], 4],
+    [img5, "", "", "Personalize a experiência de compra", ["topics"], 5],
+    [Users, "+600 mil usuários", "", "Indique e ganhe", ["topics"], 6]
+]

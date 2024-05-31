@@ -1,3 +1,5 @@
+import { dataSix } from "../ui/data";
+
 export function Part8() {
     return (
         <>
@@ -25,7 +27,16 @@ export function Part8() {
                     </div>
                 </div>
                 <div className="grid grid-cols-3">
-                    
+                    {dataSix.map(([img, addInfo, style, title, topics, index]) => (
+                        <>
+                        <div key={index}>
+                            <img src={img} alt={img} className={`${style}`}/>
+                            {addInfo && <><h2>{addInfo}</h2></>}
+                            <h1>{title}</h1>
+                            <p>{topics}</p>
+                        </div>
+                        </>
+                    ))}
                 </div>
             </section>
         </>
