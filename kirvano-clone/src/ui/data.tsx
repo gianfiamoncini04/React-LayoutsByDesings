@@ -24,7 +24,10 @@ import img2 from "../assets/Illustra_1.svg"
 import img3 from "../assets/Illustra-1.svg"
 import img4 from "../assets/Illustra-2.svg"
 import img5 from "../assets/Illustras-1.svg"
-import {Users} from "./users"
+import img6_1 from "../assets/Ellipse-1090.png"
+import img6_2 from "../assets/Ellipse-1091-1.png"
+import img6_3 from "../assets/Ellipse-1091.png"
+import img6_4 from "../assets/Ellipse-1093.png"
 
 export const data = [
     ["Conteúdo e comunidade juntos", Item1, "Engaje, dê suporte e crie conexão com o seu público através de uma comunidade integrada.", "1"],
@@ -58,10 +61,10 @@ export const dataFour = [linkedin, youtube, instagram]
 export const dataFive = ["Início", "Área de membros", "Recorrência", "Funcionalidades", "Planos e taxas", "Ajuda"]
 
 export const dataSix = [
-    [img1, "", "", "Segurança total e conformidade sem concessões", ["topics"], 1],
-    [img2, "", "", "Saque enviado para sua conta bancária em minutos", ["topics"], 2],
-    [img3, "", "", "Métodos de pagamentos aceitos", ["topics"], 3],
-    [img4, "", "", "Suporte especializado", ["topics"], 4],
-    [img5, "", "", "Personalize a experiência de compra", ["topics"], 5],
-    [Users, "+600 mil usuários", "", "Indique e ganhe", ["topics"], 6]
+    [[img1], " ", " ", "Segurança total e conformidade sem concessões", ["topics"]],
+    [[img2], " ", " ", "Saque enviado para sua conta bancária em minutos", ["topics"]],
+    [[img3], " ", " ", "Métodos de pagamentos aceitos", ["topics"]],
+    [[img4], " ", " ", "Suporte especializado", ["topics"]],
+    [[img5], " ", " ", "Personalize a experiência de compra", ["topics"]],
+    [[img6_1, img6_2, img6_3, img6_4], "+600 mil usuários", " ", "Indique e ganhe", ["topics"]]
 ]
