@@ -16,8 +16,8 @@ export default function Button(props: ButtonProps) {
 			py-2 
 			px-4 
 			bg-[#0d6ede]
+			text-white
 			rounded-lg 
-			text-white 
 			font-bold 
 			tracking-wider 
 			${props.class}`}>{props.iconleft}{props.valor}{props.iconright}</a>

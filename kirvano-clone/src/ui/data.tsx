@@ -66,5 +66,5 @@ export const dataSix = [
     [[img3], " ", " ", "Métodos de pagamentos aceitos", ["topics"]],
     [[img4], " ", " ", "Suporte especializado", ["topics"]],
     [[img5], " ", " ", "Personalize a experiência de compra", ["topics"]],
-    [[img6_1, img6_2, img6_3, img6_4], "+600 mil usuários", " ", "Indique e ganhe", ["topics"]]
+    [[img6_1, img6_2, img6_3, img6_4], "+600 mil usuários", "rounded-full size-14 inline-block ring-1 ring-white", "Indique e ganhe", ["topics"]]
 ]

@@ -17,7 +17,6 @@ export function Part2() {
         </div>
         <div className="grid grid-cols-2 gap-4 w-full">
           {data.map(([title, img, info, num]) => (
-            <>
               <div key={num} className="cards group" onMouseOver={() => handleToggle(num)} onMouseOut={() => handleToggle(!num)}>
                 <div className="max-w-60 flex flex-col gap-4">
                   <h1 className="text-2xl font-bold border-l-2 pl-4 border-white group-hover:border-black">{title}</h1>
@@ -26,7 +25,6 @@ export function Part2() {
                 </div>
                 <img src={img} alt="*" />
               </div>
-            </>
           ))}
         </div>
       </section>

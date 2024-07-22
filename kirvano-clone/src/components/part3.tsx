@@ -10,12 +10,10 @@ export function Part3() {
                         <h1 className='font-black text-5xl'>Criou algo fantástico?<br />Te ajudando a vender.</h1>
                         <div className='grid grid-cols-3 gap-x-2 gap-y-4'>
                             {dataTwo.map(([name, img]) => (
-                                <>
-                                    <p key={name} className='flex flex-row items-center gap-2 text-lg font-semibold tracking-wider'>
-                                        <img src={img} alt={img} />
-                                        {name}
-                                    </p>
-                                </>
+                                <p key={name} className='flex flex-row items-center gap-2 text-lg font-semibold tracking-wider'>
+                                    <img src={img} alt={img} />
+                                    {name}
+                                </p>
                             ))}
                         </div>
                     </div>

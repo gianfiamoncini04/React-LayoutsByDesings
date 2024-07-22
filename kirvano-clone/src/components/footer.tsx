@@ -12,16 +12,16 @@ export function Footer() {
                         <img src={logo} alt={logo} />
                         <p>Simples, confiável, lucrativa, <br />para pessoas ambiciosas</p>
                         <div className="flex flex-row gap-4 justify-start items-center">
-                            {dataFour.map((icon) => (
-                                <span className="bg-[#0d6ede] rounded-lg p-[10px] cursor-pointer">
+                            {dataFour.map((icon, index) => (
+                                <span key={index} className="bg-[#0d6ede] rounded-lg p-[10px] cursor-pointer">
                                     <img src={icon} alt={icon} />
                                 </span>
                             ))}
                         </div>
                     </div>
                     <div className="grid grid-cols-2 gap-8">
-                        {dataFive.map((label) => (
-                            <p className="font-medium">{label}</p>
+                        {dataFive.map((label, index) => (
+                            <p key={index} className="font-medium">{label}</p>
                         ))}
                     </div>
                     <div className="flex flex-col justify-center items-start gap-y-4">

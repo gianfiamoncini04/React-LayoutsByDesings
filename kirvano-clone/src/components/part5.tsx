@@ -15,12 +15,10 @@ export function Part5() {
                         <p className="text-lg">Evite que seu cliente esqueça de pagar em dia, nosso recuperador envia mensagens relevantes para os seus clientes, o que aumenta as chances de conversão.</p>
                         <div className="flex flex-row justify-center items-center gap-8">
                             {[["Email", img1], ["SMS", img2], ["WhatsApp", img3]].map(([name, img]) => (
-                                <>
-                                    <p key={name} className='flex flex-row items-center gap-2 text-lg font-bold tracking-wider'>
-                                        <img src={img} alt={img} />
-                                        {name}
-                                    </p>
-                                </>
+                                <p key={name} className='flex flex-row items-center gap-2 text-lg font-bold tracking-wider'>
+                                    <img src={img} alt={img} />
+                                    {name}
+                                </p>
                             ))}
                         </div>
                     </div>
