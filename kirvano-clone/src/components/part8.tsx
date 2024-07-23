@@ -6,17 +6,17 @@ import { FiPhone } from "react-icons/fi";
 export function Part8() {
     return (
         <>
-            <section className="px-80 py-28">
-                <div className="flex flex-col gap-8 justify-center items-center">
-                    <h1 className="font-black text-2xl">Planos e taxas</h1>
-                    <p className="text-lg">Ofereça uma experiência verdadeiramente exclusiva e atraente para os seus membros através das nossas ferramentas de personalização.</p>
+            <section className="flex flex-col gap-12 px-80 py-28">
+                <div className="flex flex-col gap-2 justify-center items-center text-center break-normal">
+                    <h1 className="font-black text-4xl">Planos e taxas</h1>
+                    <p className="text-lg w-full max-w-[600px]">Ofereça uma experiência verdadeiramente exclusiva e atraente para os seus membros através das nossas ferramentas de personalização.</p>
                 </div>
                 <div className="grid grid-cols-2">
-                    <div className="flex flex-row">
+                    <div className="flex flex-row bg-[#171717] text-white rounded-xl p-4">
                         <span>
                             <h1>Padrão</h1>
                             <p>Receba pagamentos de
-                            forma simples, com uma plataforma sem custos ocultos.</p>
+                            forma simples, com uma plataforma sem custos ocultos.</p> 
                             <Button valor="Garantir taxa"/>
                         </span>
                         <span>
