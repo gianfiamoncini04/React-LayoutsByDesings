@@ -3,6 +3,7 @@ import { dataSix } from "../ui/data";
 import Button from "../ui/button";
 import { FiPhone } from "react-icons/fi";
 import { GoDotFill } from "react-icons/go";
+import topic from '../assets/Icons-1-5.svg'
 
 export function Part8() {
     return (
@@ -36,7 +37,7 @@ export function Part8() {
                 </div>
                 <div className="grid grid-cols-3 gap-4">
                     {dataSix.map(([img, addInfo, style, title, topics], index) => (
-                        <div key={index} className="border border-zinc-300 rounded-lg p-12">
+                        <div key={index} className="border border-zinc-300 rounded-lg p-12 gap-4 flex flex-col">
                             <div className="flex -space-x-4 ring-1 ring-white">
                                 {Array.from(img).map((a: string, index: Key) => (
                                     <img key={index} src={a} alt={a} className={`${style}`} />
@@ -44,7 +45,15 @@ export function Part8() {
                             </div>
                             {addInfo && <><h2>{addInfo}</h2></>}
                             <h1>{title}</h1>
-                            <p>{topics}</p>
+                            <div className="flex flex-col items-start gap-2">
+                                {Array.from(topics).map((tpc, index) => (
+                                    <p key={index} className="inline-flex justify-center items-start gap-2">
+                                        <img src={topic} alt={topic} />
+                                        {tpc}
+                                    </p>
+
+                                ))}
+                            </div>
                         </div>
                     ))}
                 </div>
