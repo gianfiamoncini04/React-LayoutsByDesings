@@ -61,10 +61,38 @@ export const dataFour = [linkedin, youtube, instagram]
 export const dataFive = ["Início", "Área de membros", "Recorrência", "Funcionalidades", "Planos e taxas", "Ajuda"]
 
 export const dataSix = [
-    [[img1], " ", " ", "Segurança total e conformidade sem concessões", ["topics"]],
-    [[img2], " ", " ", "Saque enviado para sua conta bancária em minutos", ["topics"]],
-    [[img3], " ", " ", "Métodos de pagamentos aceitos", ["topics"]],
-    [[img4], " ", " ", "Suporte especializado", ["topics"]],
-    [[img5], " ", " ", "Personalize a experiência de compra", ["topics"]],
-    [[img6_1, img6_2, img6_3, img6_4], "+600 mil usuários", "rounded-full size-14 inline-block ring-1 ring-white", "Indique e ganhe", ["topics"]]
+    [[img1], " ", " ", "Segurança total e conformidade sem concessões", 
+    ["Segurança e criptografia de dados"],
+    ["Certificado PCI DSS"],
+    ["Segurança para gerenciar suas contas e pagamentos"]
+    ],
+
+
+    [[img2], " ", " ", "Saque enviado para sua conta bancária em minutos", 
+    ["Segurança para gerenciar suas contas e pagamentos"],
+    ["Antecipação automatizada"],
+    ],
+
+
+    [[img3], " ", " ", "Métodos de pagamentos aceitos", 
+    ["Cartão de crédito"],
+    ["PIX"],
+    ["Boleto"]
+    ],
+
+
+    [[img4], " ", " ", "Suporte especializado", 
+    ["Velocidade nas soluções"],
+    ["Atendimento exclusivo e especializado"],
+    ["Segurança e clareza nas informações"]
+    ],
+
+
+    [[img5], " ", " ", "Personalize a experiência de compra", 
+    ["Gatilhos mentais para aumentar a conversão"],
+    ["Editor de checkout personalizável"]
+    ],
+    [[img6_1, img6_2, img6_3, img6_4], "+600 mil usuários", "rounded-full size-14 inline-block ring-1 ring-white", "Indique e ganhe", 
+    ["Convide amigos e fique com uma porcentagem sobre as taxas* que a Kirvano receber das vendas do seu contato indicado. Incrível, né?"]
+    ]
 ]

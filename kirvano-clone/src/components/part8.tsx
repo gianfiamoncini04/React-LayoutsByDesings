@@ -34,9 +34,9 @@ export function Part8() {
                         <Button class="bg-[#e6e7ea] !text-black text-base justify-center inline-flex gap-2 py-4" iconleft={<FiPhone />} valor="Falar com um especialista" />
                     </div>
                 </div>
-                <div className="grid grid-cols-3">
+                <div className="grid grid-cols-3 gap-4">
                     {dataSix.map(([img, addInfo, style, title, topics], index) => (
-                        <div key={index}>
+                        <div key={index} className="border border-zinc-300 rounded-lg p-12">
                             <div className="flex -space-x-4 ring-1 ring-white">
                                 {Array.from(img).map((a: string, index: Key) => (
                                     <img key={index} src={a} alt={a} className={`${style}`} />
